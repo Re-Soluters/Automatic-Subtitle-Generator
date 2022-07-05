@@ -1,2 +1,2 @@
 # Automatic-Subtitle-Generator
-# Powerful tool to generate subtitles
+# Powerful tool to generate sub titles
