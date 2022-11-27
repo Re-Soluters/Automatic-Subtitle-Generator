@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+      #txtbox {
+    font-size: 18pt;
+    height: 42px;
+    width : 600px;
+    text-align: center;
+}
+.button {
+  background-color: #e23333;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+body {
+  background-image: url("IMG-20220629-WA00334%20(1).jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url({{url_for('static',filename='contact_usimg.jpg')}})
+}
+
+    </style>
+    <title>Youtube video downloader</title>
+</head>
+<body>
+    
+    <font size="7" face="Elephant" >YOUTUBE VIDEO DOWNLOADER&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="/">🏡</a></font>
+    <hr>
+    <br>
+    <h1>Paste link in the below text box:</h1>
+   <form align="center" action="/yvd" method="POST">
+      <input  id="txtbox" type="url" name="url" id="url"
+       placeholder="https://example.com"
+       pattern="https://.*" size="100" maxlength="300" required>
+       <input type="submit" class="button" value="Tap 2 Download">
+    </form>
+</body>
+
+                                        
